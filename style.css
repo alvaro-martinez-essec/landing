@@ -1,0 +1,97 @@
+body{
+	color: white;
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	margin: 50px auto;
+}
+
+.banner{
+  text-align: center;
+  color: white;
+  padding: 150px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,19) 0%, rgba(0,0,0,0.5) 50%), url("https://www.purina-arabia.com/sites/default/files/2020-12/Understanding%20Your%20Cat%27s%20Body%20LanguageHERO.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.99;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-black {
+  color: white;
+  background-color: black;
+  padding: 40px;
+  box-shadow: 0px 5px 15px rgba(20, 20, 20);
+  border-radius: 4px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.card-black h2 {
+	margin-top: 15px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 15px;
+}
+.list-inline i {
+  font-size: 30px;
+  color: White;
+  transition: color 0.3s erase;
+}
+.list-inline i:hover {
+  color: red;
+}
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+  text-align:center;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+
+#features {
+  padding: 64px 0px;
+}
